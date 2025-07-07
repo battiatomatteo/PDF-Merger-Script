@@ -1,8 +1,8 @@
- import os
+import os
 from PyPDF2 import PdfMerger
 
 # 📁 Specifica il percorso della cartella contenente i PDF
-cartella_pdf = "d:/Reti"  # 🔁 Cambialo con il percorso reale della tua cartella
+cartella_pdf = "d:/Percorso"  # 🔁 Cambialo con il percorso reale della tua cartella
 
 # 📝 Ordine preciso dei file da unire (scrivi esattamente i nomi, con estensione .pdf)
 ordine_preciso = [
@@ -26,7 +26,7 @@ for file in ordine_preciso:
 
 
 # 💾 Scrive il file finale
-output_path = os.path.join(cartella_pdf, "Reti-1.pdf")
+output_path = os.path.join(cartella_pdf, "nome_file.pdf")
 merger.write(output_path)
 merger.close()
 
