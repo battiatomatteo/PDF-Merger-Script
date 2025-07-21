@@ -7,6 +7,7 @@ Uno script semplice in Python per unire più file PDF in un unico documento, seg
 - ✅ Unisce file PDF in un ordine personalizzato
 - 📂 Lavora su una cartella locale contenente i PDF
 - 📄 Crea un unico file PDF unificato
+- 📂 Fa scegliere all'utente dove salvare il file aprendo una finestra dell'esplora risorse
 
 ## 📋 Requisiti
 
