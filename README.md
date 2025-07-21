@@ -1,6 +1,6 @@
 # 📎 PDF Merger Script
 
-Uno script semplice in Python per unire più file PDF in un unico documento, seguendo un ordine specificato manualmente.
+Script semplice in Python per unire più file PDF in un unico documento, seguendo un ordine specificato manualmente.
 
 ## 🛠 Funzionalità
 
@@ -18,3 +18,8 @@ Puoi installare PyPDF2 con:
 
 ```bash
 pip install PyPDF2
+```
+## Come usarli:
+
+- Esegui seleziona_file.py → scegli e ordina i PDF, poi clicca su "✔ Conferma".
+- Esegui pdf.py → unisce i PDF e ti chiede dove salvarli.
